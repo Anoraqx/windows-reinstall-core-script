@@ -23,7 +23,6 @@ call :download_file "https://steelseries.com/engine/latest/windows" "%UserProfil
 :: Dankerino
 call :download_file "https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.1.zip" "%UserProfile%\Downloads\dankerino.zip"
 
-
 echo All downloads are complete! 
 
 :: NVidia Drivers
@@ -31,6 +30,7 @@ echo Automatic download is not possible due to frequent version change and two d
 echo Select ONE of two:
 echo NVIDIA App - https://www.nvidia.com/en-us/software/nvidia-app/
 echo NVIDIA Experience - https://www.nvidia.com/en-us/geforce/geforce-experience/
+
 
 echo Install phase. God elp.
 
@@ -65,7 +65,6 @@ echo Installing Steam...
 echo Note: Steam requires user interaction during installation.
 start /wait "" "%UserProfile%\Downloads\steam_installer.exe"
 
-
 exit /b
 
 
@@ -94,6 +93,5 @@ if errorlevel 1 (
     echo FATAL: Error downloading %output%. Please check the URL and try again.
     exit /b 1
 )
+
 exit /b
-
-
