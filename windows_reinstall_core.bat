@@ -58,12 +58,12 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo Automatic installations completed. Steam requires manual installation
-
 :: Install Steam
 echo Installing Steam...
-echo Note: Steam requires user interaction during installation.
-start /wait "" "%UserProfile%\Downloads\steam_installer.exe"
+start /wait "" "%UserProfile%\Downloads\steam_installer.exe" /S
+
+echo Automatic installations completed. Steam requires manual installation
+
 
 exit /b
 
