@@ -18,7 +18,7 @@ call :download_file "https://cdn.cloudflare.steamstatic.com/client/installer/Ste
 call :download_file "https://telegram.org/dl/desktop/win64" "%UserProfile%\Downloads\telegram_installer.exe"
 
 :: SteelSeries Engine
-call :download_file "https://steelseries.com/engine/latest/windows" "%UserProfile%\Downloads\steelseries_engine_installer.exe"
+call :download_file "https://steelseries.com/gg/downloads/gg/latest/windows" "%UserProfile%\Downloads\steelseries_engine_installer.exe"
 
 :: Dankerino
 call :download_file "https://github.com/Mm2PL/dankerino/releases/download/nightly-build/chatterino-windows-x86-64-Qt-6.7.1.zip" "%UserProfile%\Downloads\dankerino.zip"
